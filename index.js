@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 3000;
 const fs = require('fs');
 const leaderboardData = JSON.parse(fs.readFileSync('./leaderboard.json', 'utf-8'));
 const loginData = JSON.parse(fs.readFileSync('./login.json', 'utf-8'));
