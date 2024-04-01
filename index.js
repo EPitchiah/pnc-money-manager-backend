@@ -15,6 +15,8 @@ app.listen(PORT, () => {
     console.log('server running');
 })
 
+app.get("/", (req, res) => res.send("Express on Vercel"));
+
 app.get('/leader', (req, res) => {
     res.set('Access-Control-Allow-Origin', '*');
     res.send(leaderboardData);
