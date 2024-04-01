@@ -1,0 +1,47 @@
+# API Information #
+
+The data for our web application is stored on a node server in the form of JSON objects.
+Our express server is hosted on localhost:4000 with different extensions to trigger the app.get() methods.
+
+## /child ##
+Contains the child account information.
+
+## /leader ##
+Contains the leaderboard information.
+
+## /course ## 
+Contains the financial literacy course information.
+
+## /login ##
+Contains the user login information.
+
+
+# Setup and Running Instructions #
+1. Run "npm init" in a directory of your choosing.
+2. Run "npm i express" in that directory.
+3. Run "npm i nodemon" in the same directory.
+4. Make sure your package.json looks like this:
+
+{
+  "name": "[YOUR_NAME_HERE]",
+  "version": "1.0.0",
+  "description": "Express",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \\\"error\\\" && exit 1"
+  },
+  "author": "[AUTHORS_NAME_HERE]",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
+
+5. Create a file called "index.js" in the same directory.
+6. Start coding!
+
+Additional reference: https://expressjs.com/

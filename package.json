@@ -1,0 +1,20 @@
+{
+  "name": "team14-api",
+  "version": "1.0.0",
+  "description": "Express",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \\\"error\\\" && exit 1",
+    "lint": "eslint ."
+  },
+  "author": "michael c",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/cli": "^17.3.2",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
